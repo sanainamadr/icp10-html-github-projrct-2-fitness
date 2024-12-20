@@ -38,7 +38,7 @@
         }
 
         .menue{
-            margin-left: 120px;
+            margin-left: 5px;
         }
 
         .logo{
@@ -47,6 +47,10 @@
         .menu_icon {
             height: 40px;
             display: none;
+        }
+
+        .cart_icon{
+            height: 20px;
         }
 
         /* mobile */
