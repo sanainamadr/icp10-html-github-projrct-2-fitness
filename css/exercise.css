@@ -66,6 +66,7 @@ body {
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
     margin: 20px;
     height: auto;
+    transition: 0.5s ease-in-out;
 }
 
 .card img{
@@ -120,8 +121,14 @@ body {
     border-radius: 91px;
     color: white;
     font-weight: bold;
-
 }
  
 /* card hover design */
 
+ .card_container:hover .card{
+    transform: scale(0.9);
+  }
+
+  .card_container .card:hover{
+      transform: scale(1);
+  }
