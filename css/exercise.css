@@ -28,6 +28,8 @@ body {
     text-align: center;
     font-size: 18px;
 }
+/* card css
+ */
 
 .container{
     margin-bottom: 25px;
@@ -37,5 +39,25 @@ body {
     border-radius: 8px 8px 0 0 ;
     width: 1200px;
     height: fit-content;
+
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 8px 8px 8px 8px ;
+    height: 400px;
+    /* background-color: #dbc2c2; */
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.image img{
+    width: 300px;  
+    border-radius: 8px 8px 0 0 ;
+
 }
