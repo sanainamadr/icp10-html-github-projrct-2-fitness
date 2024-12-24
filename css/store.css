@@ -1,4 +1,16 @@
 .img{
-    height:500px ;
+    height:400px ;
     width:300px ;
+    padding: 2px;
+    margin: 10px;
+    background-color: #000000;
 }
+.img1{
+    height: 400PX;
+    width:270PX ;
+    margin: 9PX;
+    padding:2PX ;
+    background-color: #000000;
+
+}
+
