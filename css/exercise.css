@@ -109,12 +109,3 @@ body {
 
 }
  
-/* card hover design */
-
- .card_container:hover .card{
-    transform: scale(0.9);
-  }
-
-  .card_container .card:hover{
-      transform: scale(1);
-  }
