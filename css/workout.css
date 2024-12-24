@@ -16,5 +16,48 @@ body{
 .main-title{
   font-size: 25px;
   text-align: justify;
-  padding: 10px;
+  text-align: center;
  }
+/* main container */
+ .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.main-workout{
+  width: 400px;
+  height: 500px;
+  border: 2px solid lightcoral;
+  box-shadow: 0 0 10px black;
+  margin: 10px 20px;
+  border-radius:10px;
+  
+}
+.gymwoking{
+width: 100%;
+display: block;
+margin: 0px auto;
+border-radius: 10px 10px 0 0;
+height: 200px;
+object-fit: cover;
+}
+.heading{
+   text-align: center;
+}
+.disciption{
+  text-align: justify;
+  padding: 10px 20x;
+ margin:10px;
+   }
+   .btn{
+    display: block;
+    margin: 53px auto;
+    font-size: 30px;
+    padding: 3px 40px;
+    padding-bottom: 3px;
+    border-radius: 60px;
+    background-color: aquamarine;
+    color: brown;
+    border: none;
+     }
+   /* container  */
