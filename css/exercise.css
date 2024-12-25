@@ -213,9 +213,25 @@ ul .link {
 
 /* media query */
 
+
+
+ 
  /* mobile */
- @media (max-width:600px){
-            
+ @media (min-width:466px) and (max-width:630px){
+    .card_content .btn {
+        background-color: #7f5af0;
+        color: #fffffe;
+        padding: 8px 24px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 91px;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 18px 32px;
+    
+    }
+
 }
 
 /* tablet */ 
