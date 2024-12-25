@@ -147,3 +147,25 @@
     width: 400px;
     display: flex;
 }
+
+.item2{
+    margin-left: 150px;
+  }
+  
+  .item3{
+      margin-left: 145px;
+  }
+  
+  .img1{
+      height: 300px;
+      width: 400px;;
+  }
+  
+  .item4{
+      margin-left: 150px;
+  }
+  
+  .item5
+  {
+      margin-left: 145px;
+  }
