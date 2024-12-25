@@ -100,3 +100,19 @@
     width: 1516px;
     height: 600px;
 }
+
+.h1{
+    font-size: 70px;  
+    
+  
+}
+
+.h2{
+    font-size: 40px;
+   text-align: center;
+}
+
+.h3{
+    font-size: 20px;
+   text-align: center;
+}
