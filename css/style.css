@@ -154,7 +154,7 @@
         }
 
         .footer-col{
-            width: 25%;
+            width:20%;
             padding: 0 15px;
 
         }
@@ -167,6 +167,9 @@
             max-width: 1170px;
             margin: auto;
 
+        }
+        .footer_info{
+            padding-left: 80px;
         }
     
     
