@@ -1,7 +1,7 @@
 .main-article-container{
     /* display: flex; */
     padding: 5px;
-    margin: 20px;
+    margin-top: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -64,6 +64,14 @@
 
 .btn-3{
     margin-top: 60px;
+}
+
+.btn-4{
+    margin-top: 80px;
+}
+
+.btn-5{
+    margin-top: 80px;
 }
 
 .ending-btn{
