@@ -132,3 +132,11 @@
     text-align: justify;
     font-size: 20px;
 }
+
+.con{
+    margin-top: 20px;
+    height: 550px;
+    width: 400px;
+    display: flex;
+   
+}
