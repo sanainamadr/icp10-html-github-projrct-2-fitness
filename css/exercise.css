@@ -7,7 +7,7 @@ body {
 
 .exercise_poster {
     width: 100%;
-    height: 400px;
+    height: auto;
     margin-top: 92px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,4 +211,23 @@ ul .link {
 
 }
 
-/* background design */
+/* media query */
+
+ /* mobile */
+ @media (max-width:600px){
+            
+}
+
+/* tablet */ 
+@media (min-width:601px) and (max-width:800px) {
+     
+
+}
+
+
+/* laptop */
+@media (min-width:800px) and (max-width:1200px){
+    
+      
+
+}
