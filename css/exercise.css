@@ -217,7 +217,7 @@ ul .link {
 
  
  /* mobile */
- @media (min-width:466px) and (max-width:630px){
+ @media (min-width:400px) and (max-width:630px){
     .card_content .btn {
         background-color: #7f5af0;
         color: #fffffe;
@@ -231,6 +231,22 @@ ul .link {
         margin: 18px 32px;
     
     }
+    .card_container {
+        background: #121111;
+        border-top: 5px solid #7f5af0;
+        color: #fffffe;
+        border-radius: 8px 8px 0 0;
+        padding: 25px;
+        width: auto;
+        margin: 53px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    
+    }
+
+    
 
 }
 
