@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #16161a;
 }
 
 .exercise_poster {
@@ -14,7 +15,7 @@ body {
 }
 
 .exercise_heading {
-    color:#6337e8;
+    color: #fffffe;
     font: bold;
     display: flex;
     justify-content: center;
@@ -28,15 +29,18 @@ body {
     margin: 0 auto 25px;
     text-align: center;
     font-size: 18px;
+    color: #94a1b2;
 }
- /* card css */
+
+/* card css */
 
 
 
-.card_container{
-    background: #f5f5f5;
-    border-top: 5px solid #6337e8;
-    border-radius: 8px 8px 0 0 ;
+.card_container {
+    background: #121111;
+    border-top: 5px solid #7f5af0;
+    color: #fffffe;
+    border-radius: 8px 8px 0 0;
     padding: 25px;
     width: auto;
     margin: 100px;
@@ -46,58 +50,66 @@ body {
     margin-top: 50px;
 
 }
-.card{
+
+.card {
     width: 325px;
     border-radius: 25px;
     overflow: hidden;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 25px #2a2828;
     margin: 20px;
     height: auto;
     transition: 0.5s ease-in-out;
+
+    background-color: #1a1a1a;
+    /* box-shadow: 
+    0 4px 8px rgba(255, 255, 255, 0.1), 
+    0 2px 4px rgba(0, 0, 0, 0.6);  */
 }
 
-.card img{
+.card img {
     width: 100%;
     margin-bottom: 6px;
 }
 
-.card_content{
+.card_content {
     padding: 5px;
 }
 
-.card_content h3{
+.card_content h3 {
     margin: auto;
     font-size: 20px;
-   text-align: center;
-   text-decoration: underline;
+    text-align: center;
+    text-decoration: underline;
 }
-.card_content q{
+
+.card_content q {
     display: block;
     text-align: center;
-    color: #000000;
+    color: #fffffe;
     font-size: 11px;
     line-height: 1.3;
 
 }
 
-.card_content p{
-    color: black;
+.card_content p {
+    color: #fffffe;
     font-size: 15px;
     line-height: 1.3;
     text-align: center;
 
 }
-.card_content span{
+
+.card_content span {
     display: block;
     text-align: start;
     margin-left: 15px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 
-.card_content .btn{
-    background-color: #6337e8;
-    color: white;
+.card_content .btn {
+    background-color: #7f5af0;
+    color: #fffffe;
     padding: 8px 24px;
     text-decoration: none;
     font-weight: bold;
@@ -108,20 +120,20 @@ body {
     margin: 18px 93px;
 
 }
- 
+
 /* card hover design */
 
-.card_container:hover .card{
+.card_container:hover .card {
     transform: scale(0.9);
-  }
+}
 
-  .card_container .card:hover{
-      transform: scale(1);
-  }
+.card_container .card:hover {
+    transform: scale(1);
+}
 
 /* css for pagination  */
 
-.container_pagenext{
+.container_pagenext {
     width: auto;
     height: auto;
     margin: -50px;
@@ -132,7 +144,7 @@ body {
 
 }
 
-.pagination{
+.pagination {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,11 +154,11 @@ body {
     margin-bottom: 45px;
 }
 
-ul{
+ul {
     margin: 20px 30px;
 }
 
-ul .link{
+ul .link {
     display: inline-block;
     margin: 0 10px;
     background-color: #ccc;
@@ -161,12 +173,12 @@ ul .link{
 
 }
 
-.card_container .container_pagenext .pagination .button{
+.card_container .container_pagenext .pagination .button {
     display: inline-flex;
     align-items: center;
     font-size: 20px;
     font-weight: 500;
-    color: #383838;
+    color: #fffffe;
     background: transparent;
     outline: none;
     border: none;
@@ -175,26 +187,28 @@ ul .link{
     margin-right: -47px;
 }
 
-.card_container .container_pagenext .pagination .button .arrow{
-width: 24px;
-margin-right: 15px;
+.card_container .container_pagenext .pagination .button .arrow {
+    width: 24px;
+    margin-right: 15px;
 }
 
-.card_container .container_pagenext .pagination .button .arrow2{
+.card_container .container_pagenext .pagination .button .arrow2 {
     width: 24px;
     margin-left: 15px;
     transform: rotate(180deg);
 }
 
-.card_container .container_pagenext .pagination .active{
+.card_container .container_pagenext .pagination .active {
     color: #fff;
-    background-color: #6337e8;
+    background-color: #7f5af0;
     width: 33px;
     height: 33px;
     border-radius: 50%;
     text-align: center;
     font-size: 27px;
     font-weight: 500;
-     /* line-height: 45px; */
+    /* line-height: 45px; */
 
 }
+
+/* background design */
