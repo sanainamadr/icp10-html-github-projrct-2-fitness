@@ -95,15 +95,25 @@
 }
 
 .img{
-    margin: 0%;
-    padding: 0%;
-    width: 1516px;
-    height: 600px;
+    background-image:url(./../img/tools_main.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding-left: 20px;
+    background-image: 100%;
+    object-fit: cover;
+    margin-top: 140px;
+    height: 500px;
+    position: relative;
+    margin-top: 50px;
 }
 
 .h1{
     font-size: 70px;  
-    
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
   
 }
 
