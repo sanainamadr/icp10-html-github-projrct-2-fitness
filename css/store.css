@@ -1,0 +1,69 @@
+.img{
+    height:200px ;
+    width:270px ;
+    padding: 2px;
+    margin: 10px;
+    background-color: #000000;
+}
+.img1{
+    height: 150PX;
+    width: 265px;;
+    margin: 9PX;
+    padding:2PX ;
+    background-color: #000000;
+
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    border:1px solid black;
+    font-size: 20px;
+    color:white;
+    background-color:palevioletred;
+    margin: 10px;
+}
+.btn1{
+    border: none;
+    border-radius: 10px;
+    border:1px solid black;
+    font-size: 20px;
+    color:white;
+    background-color:brown;
+}
+
+.heading{
+    font-family:cursive ;
+    font-size:20px ;
+    text-align: center;
+    color:brown ;
+}
+.price{
+    font-size:20px ;
+    text-align: center;
+}
+.head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px ;
+    color: purple;
+    display: block;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.card_container{
+  width: 300px;
+  height: 400px;
+  border: 2px solid brown;
+  box-shadow: 0 0 10px black;
+  margin: 10px 20px;
+  border-radius:10px;
+  justify-content: space-between;
+  
+  
+}
+    
