@@ -1,13 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #16161a;
+}
 .img{
-    height:400px ;
+    height:200px ;
     width:270px ;
     padding: 2px;
     margin: 10px;
     background-color: #000000;
 }
 .img1{
-    height: 400PX;
-    width:270PX ;
+    height: 150PX;
+    width: 265px;;
     margin: 9PX;
     padding:2PX ;
     background-color: #000000;
@@ -18,8 +23,9 @@
     border-radius: 10px;
     border:1px solid black;
     font-size: 20px;
-    color:white;
-    background-color:palevioletred
+    background-color: #7f5af0;
+    color:#fffffe ;
+    margin: 10px;
 }
 .btn1{
     border: none;
@@ -34,16 +40,35 @@
     font-family:cursive ;
     font-size:20px ;
     text-align: center;
-    color:brown ;
+    color:white;
 }
 .price{
     font-size:20px ;
     text-align: center;
+    color: white;
 }
 .head{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:25px ;
-    color: purple;
-
+    color:white;
+    display: block;
+    margin-top: 110px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    border-top: 5px solid #7f5af0;
+}
+.card_container{
+  width: 300px;
+  height: 400px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px black;
+  border-radius:10px;
+  margin:25px 25px auto;
+  justify-content: space-between;
 
 }
+ 
