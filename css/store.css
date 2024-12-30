@@ -53,6 +53,7 @@ body{
     color:white;
     display: block;
     margin-top: 110px;
+    text-align: center;
 }
 .container {
     display: flex;
@@ -67,7 +68,7 @@ body{
   box-shadow: 0 0 10px black;
   border-radius:10px;
   margin:25px 25px auto;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
 }
  
