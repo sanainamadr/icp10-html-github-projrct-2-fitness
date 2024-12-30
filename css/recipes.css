@@ -1,7 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin-right: 0px;
+    margin-left: -100px;
+    padding-left: 0;
+    padding: 100px;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
@@ -11,7 +13,8 @@ body {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 1em 2;
+    
   }
   
   h1 {
@@ -23,7 +26,7 @@ body {
   }
   
   .meal-section {
-    background: white;
+    background color: rgb(240, 53, 53);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
@@ -36,9 +39,10 @@ body {
   }
   
   .meal-img {
-    width: 100%;
+    width: 350px;
     border-radius: 8px;
-    margin: 10px 0;
+    margin: 5px 10px;
+    height: 250px;
   }
   
   ul {
