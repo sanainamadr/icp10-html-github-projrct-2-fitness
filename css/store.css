@@ -71,4 +71,9 @@ body{
   justify-content: space-between;
 
 }
+.container1{
+    max-width: 1170px;
+    margin: auto;
+
+}
  
