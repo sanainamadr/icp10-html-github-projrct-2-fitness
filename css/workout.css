@@ -117,3 +117,35 @@ object-fit: cover;
   height: 130px;
   }
   }
+
+
+
+  /*  ///// */
+
+  .footer{
+    background-color: rgb(239, 239, 247);
+    padding: 70px 0;
+
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer-col{
+  width:20%;
+  padding: 0 15px;
+
+}
+.list {
+  list-style: none;
+  
+}
+.container{
+  max-width: 1370px;
+  margin: auto;
+
+}
+.footer_info{
+  padding-left: 80px;
+}
