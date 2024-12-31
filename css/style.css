@@ -219,3 +219,25 @@
         .card4{
             background-color: greenyellow;
         }
+        .main_heading{
+            text-align: center;
+            font-size: 35px;
+        }
+        .main_info{
+            text-align: center;
+            text-size-adjust: 20px;
+        }
+        .main_btn{
+            color: #fffffe;
+            background-color:  #16161a;
+            height: 30px;
+            height: 35px;
+            width: 80px;
+            text-align: center;
+            border: none;
+            border-radius: 30px;
+            
+        }
+        .btn_div{
+            text-align: center;
+        }
