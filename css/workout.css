@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background: #121111;
   }
 
   /* ==== */
@@ -8,7 +9,7 @@ body{
     text-align: center;
     font-size: 60px;
     padding: 50px;
-    color:#6337e8;
+    color: #fffffe;
     margin-top: 70px;
     margin-bottom: 20px;
     
@@ -18,12 +19,13 @@ body{
   text-align: justify;
   text-align: center;
   margin-top: 10px;
+  color: #94a1b2;
   
  }
 /* main container */
  .container{
-  
-  background: #f5f5f5;
+  background: #121111;
+  color: #fffffe;
     border-top: 5px solid #6337e8;
     border-radius: 8px 8px 0 0 ;
     padding: 50px;
@@ -42,6 +44,7 @@ body{
   border: 2px solid #7f5af0;
   margin: 10px 20px;
   border-radius:15px;
+  background-color: #1a1a1a;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   
 }
@@ -55,9 +58,11 @@ object-fit: cover;
 }
 .heading{
    text-align: center;
+   color: #fffffe;
 }
 .disciption{
   text-align: justify;
+  color: #fffffe;
   padding: 10px 20x;
   font-family: 'Times New Roman', Times, serif;
  margin:10px;
