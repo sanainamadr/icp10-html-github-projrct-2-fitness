@@ -31,6 +31,10 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
     padding: 20px;
+    font size:2px;
+    display:flex;
+    flex-direction:row;
+
   }
   
   .meal-section h2 {
@@ -45,17 +49,8 @@ body {
     height: 250px;
   }
   
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
   
-  ul li {
-    background: #e8f5e9;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-  }
+ 
   
   
   
