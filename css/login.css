@@ -68,3 +68,11 @@
     background-color: #4caf50;
   }
 
+@media screen and (max-width:600px){
+.login-container{
+  right:12%;
+  top: 70px;
+  width: 280px;
+  height: 380px;
+}
+}

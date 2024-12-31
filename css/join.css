@@ -57,3 +57,16 @@
 .form-group button:hover {
   background-color: #ff4757;
 }
+
+@media screen and (max-width:600px){
+  .bg-img{
+    height: 550px;
+  }
+
+  .signup-container{
+    right:12%;
+    top: 70px;
+    width: 280px;
+    height: 380px;
+  }
+}
