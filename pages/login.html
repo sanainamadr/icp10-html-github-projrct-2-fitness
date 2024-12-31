@@ -1,73 +1,125 @@
 <!DOCTYPE html>
-<html>
+
 <head>
-    <title>Fitness Website Login Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-        header {
-            padding: 10px 0;
-            text-align: center;
-            background-color: #010101;
-            color: white;
-        }
-        .container {
-            max-width: 600px;
-            margin: 20px auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            background-color: white;
-        }
-        h2 {
-            text-align: center;
-            color: #010101;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-            color: #010101;
-        }
-        input, textarea, button {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border-radius: 4px;
-            border: 1px solid #010101;
-        }
-        button {
-            background-color: #010101;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #333;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness webside</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/join.css" />
+    <link rel="stylesheet" href="./../css/login.css" />
 </head>
 <body>
+    <div class="navbar">
 
-<header>
-    <h1>ForeverFit <br> Studios</h1><hr>
-</header>
+        <div class="brand">
+            <img src="/img/brand_logo.png"  class="logo" alt="GYM Logo" />
+            <h1>ForeverFit <br> Studios</h1>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="search"  class="search_box"/>
+        </div>
 
-<div class="container" id="login-page">
-    <h2>LOGIN</h2>
-    <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        
+        
+        <div class="menue"> 
+            <a href="/index.html" class="menue_item">Home</a>
+            <a href="/pages/workout.html" class="menue_item">Workout</a>
+            <a href="/pages/exercise.html" class="menue_item">Exercise</a>
+            <a href="/pages/diet_plan.html" class="menue_item">Diet plan</a>
+            <a href="/pages/recipes.html" class="menue_item">Recepies</a>
+            <a href="/pages/store.html" class="menue_item">Store</a>
+            <a href="/pages/articles.html" class="menue_item">Artical</a>
+            <a href="/pages/tools.html" class="menue_item">Tools</a>
+            <a href="/pages/contact.html" class="menue_item">Contact Us</a>
+            <a href="/pages/cart.html" class="menue_item"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="/pages/join.html" class="menue_item"><i class="fa-solid fa-user"></i></a>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
-        <label>Tap to login:</label>
-        <button type="submit">Login</button>
-    </form>
-</div>
-</body>
-</html>
+            
+            
+
+            <img src="/img/hamburger.png" alt="menu" class="menu_icon" />
+        </div>
+        
+    </div>
+    <img src="./../img/contact-img.avif" alt="bg-img" class="bg-img" >
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required >
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group btn-login">
+            <a href="./../index.html">
+            <button type="button" id="nextPageButton">Login</button>
+          </a>
+          </div>
+        </form>
+        <div class="form-group2" >
+          <a href="./../pages/join.html" target="_blank">
+          <button class="signup">Sign in</button>
+        </a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h2>Company</h2>
+                    <ul class="list" type="none">
+                        <li><a href="#" class="link-tag">about us</a></li>
+                        <li><a href="#" class="link-tag">our services</a></li>
+                        <li><a href="#" class="link-tag">privacy policy</a></li>
+                        <li><a href="#" class="link-tag">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Got Help</h2>
+                    <ul class="list" type="none">
+                        <li><a href="#" class="link-tag">FAQc</a></li>
+                        <li><a href="/pages/store.html" class="link-tag">shopping</a></li>
+                        <li><a href="#" class="link-tag">returns</a></li>
+                        <li><a href="#" class="link-tag">order status</a></li>
+                        <li><a href="#" class="link-tag">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Online Shop</h2>
+                    <ul class="list" type="none">
+                        <li><a href="/pages/store.html" class="link-tag">men</a></li>
+                        <li><a href="/pages/store.html" class="link-tag">women</a></li>
+                        <li><a href="/pages/store.html" class="link-tag">Gym Accessories</a></li>
+                        <li><a href="/pages/store.html" class="link-tag">shakers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Follow Us</h2>
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/" class="social-icon" ><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" class="social-icon" ><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" class="social-icon" ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/1234567890" class="social-icon" ><i class="fa-brands fa-whatsapp"></i></a>
+                        <div class="footer_info">
+                            <h3> <b>Email us at:</b> <a href="mailto:foreverfits.com" class="link-tag">foreverfits@gmail.com</a></h3>
+                            <h3> <b>Call us at:</b> <a href="tel:9965775098" class="link-tag">+91 965775098</a></h3>
+                        </div> 
+                    </div> 
+                      
+                </div>
+               
+            </div>
+           
+        </div>
+          
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/46891c4a3a.js" crossorigin="anonymous"></script>
+
+
+
+
